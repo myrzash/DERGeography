@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/map_contur"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/map_obl_zko_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_atyrau_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_mangystau_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_aktobe_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_kostanai_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_kyzylorda_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_sko_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_akmola_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_karaganda_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_uko_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_jambyl_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_pavlodar_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_almaty_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_obl_vko_entered"
+        android:duration="@integer/duration_animlist_map"/>
+    <item
+        android:drawable="@drawable/map_contur"
+        android:duration="@integer/duration_animlist_map"/>
+
+</animation-list>

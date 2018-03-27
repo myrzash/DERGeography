@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="@dimen/width_description"
+        android:layout_height="@dimen/height_description"
+        android:layout_gravity="center"
+        android:background="@color/translucent_light"
+        android:padding="@dimen/padding_normal" >
+
+        <ImageView
+            android:id="@+id/buttonKZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:onClick="onClickLang"
+            android:src="@drawable/icon_kz" />
+
+        <ImageView
+            android:id="@+id/buttonRU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onClickLang"
+            android:src="@drawable/icon_ru" />
+
+        <ImageView
+            android:id="@+id/buttonEN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:onClick="onClickLang"
+            android:src="@drawable/icon_en" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bkg_input"
+    android:gravity="center_vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/coverViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonBegin" >
+    </android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:id="@+id/imageCharacters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_high"
+        android:layout_above="@+id/buttonBegin"
+        android:visibility="invisible"
+        android:src="@drawable/characters" >
+    </ImageView>
+
+    <Button
+        android:id="@+id/buttonBegin"
+        style="@style/ButtonAppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/indicator"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/go" />
+
+    <kz.nis.geography.cover.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/padding_normal"
+        app:fillColor="@color/blue"
+        app:pageColor="@color/white"
+        app:radius="@dimen/padding_small_extra"
+        app:strokeColor="@color/green"
+        app:strokeWidth="3dp" />
+
+</RelativeLayout>

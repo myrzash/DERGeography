@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/header_menu"
+    android:padding="@dimen/padding_normal" >
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/menu_shape_logo" />
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="User Name"
+        android:textSize="@dimen/text_size_normal" />
+
+    <TextView
+        android:id="@+id/textViewScore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:drawableTop="@drawable/score"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textViewScore2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:drawableTop="@drawable/score"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textViewScore3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewScore1"
+        android:drawableTop="@drawable/score"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/textViewScore4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewScore2"
+        android:drawableTop="@drawable/score"
+        android:gravity="center"/>
+
+</RelativeLayout>

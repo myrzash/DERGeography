@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="height_map_exercise_one">520dp</dimen>
+    <dimen name="width_map_exercise_one">840dp</dimen>
+    <dimen name="max_height_dialog">550dp</dimen>
+    <dimen name="max_width_dialog">890dp</dimen>
+    <dimen name="width_progressbar_result">360dp</dimen>
+    <dimen name="margin_task_text">30dp</dimen>
+    <dimen name="text_size_big_extra">50sp</dimen>
+    <dimen name="text_size_big">30sp</dimen>
+    <dimen name="text_size_carte">46sp</dimen>
+    <dimen name="text_size_item_exercises_list">26sp</dimen>
+    <dimen name="text_size_normal">20sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_small_extra">6dp</dimen>
+    <dimen name="padding_normal">20dp</dimen>
+    <dimen name="padding_normal_extra">30dp</dimen>
+    <dimen name="padding_high_extra">120dp</dimen>
+    <dimen name="padding_high">60dp</dimen>
+    <dimen name="height_description">500dp</dimen>
+    <dimen name="width_description">600dp</dimen>
+<dimen name="divider_height">1dp</dimen>
+</resources>

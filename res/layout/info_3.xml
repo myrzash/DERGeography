@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="@dimen/max_width_dialog"
+    android:layout_height="@dimen/max_height_dialog"
+    android:background="@drawable/bkg_map" >
+
+    <AbsoluteLayout
+        android:id="@+id/map_kz"
+        android:layout_width="@dimen/width_map_exercise_one"
+        android:layout_height="@dimen/height_map_exercise_one"
+        android:layout_margin="@dimen/padding_normal"
+        android:background="@drawable/map_regions" >
+
+        <Button
+            android:id="@+id/city7"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="80dp"
+            android:layout_y="270dp" />
+
+        <Button
+            android:id="@+id/city13"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="483dp"
+            android:layout_y="91dp" />
+
+        <Button
+            android:id="@+id/city17"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="630dp"
+            android:layout_y="95dp" />
+
+        <Button
+            android:id="@+id/city24"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="90dp"
+            android:layout_y="145dp" />
+
+        <Button
+            android:id="@+id/city28"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="596dp"
+            android:layout_y="129dp" />
+
+        <Button
+            android:id="@+id/city9"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="120dp"
+            android:layout_y="428dp" />
+
+        <Button
+            android:id="@+id/city3"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="90dp"
+            android:layout_y="394dp" />
+
+        <Button
+            android:id="@+id/city4"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="230dp"
+            android:layout_y="191dp" />
+
+        <Button
+            android:id="@+id/city21"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="655dp"
+            android:layout_y="356dp" />
+
+        <Button
+            android:id="@+id/city14"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="339dp"
+            android:layout_y="88dp" />
+
+        <Button
+            android:id="@+id/city18"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="466dp"
+            android:layout_y="3dp" />
+
+        <Button
+            android:id="@+id/city1"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="502dp"
+            android:layout_y="140dp" />
+
+        <Button
+            android:id="@+id/city19"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="535dp"
+            android:layout_y="179dp" />
+
+        <Button
+            android:id="@+id/city11"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="561dp"
+            android:layout_y="201dp" />
+
+        <Button
+            android:id="@+id/city10"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="424dp"
+            android:layout_y="275dp" />
+
+        <Button
+            android:id="@+id/city20"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="690dp"
+            android:layout_y="170dp" />
+
+        <Button
+            android:id="@+id/city16"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="383dp"
+            android:layout_y="365dp" />
+
+        <Button
+            android:id="@+id/city8"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="314dp"
+            android:layout_y="316dp" />
+
+        <Button
+            android:id="@+id/city25"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="680dp"
+            android:layout_y="200dp" />
+
+        <Button
+            android:id="@+id/city6"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="560dp"
+            android:layout_y="283dp" />
+
+        <Button
+            android:id="@+id/city5"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="637dp"
+            android:layout_y="400dp" />
+
+        <Button
+            android:id="@+id/city22"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="525dp"
+            android:layout_y="406dp" />
+
+        <Button
+            android:id="@+id/city23"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="423dp"
+            android:layout_y="414dp" />
+
+        <Button
+            android:id="@+id/city27"
+            style="@style/ButtonCity.info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="460dp"
+            android:layout_y="440dp" />
+
+    </AbsoluteLayout>
+
+  <LinearLayout
+      android:id="@+id/containerRow"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:background="@drawable/bkg_info_item"
+      android:gravity="center_horizontal"
+      android:orientation="vertical"
+      android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/bkgTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_info" />
+
+         <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:layout_marginLeft="@dimen/padding_high"
+            android:layout_marginRight="@dimen/padding_high"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textViewInform"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ellipsize="end"
+                android:scrollbars="vertical"
+                android:textSize="@dimen/text_size_big" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/buttonBackGridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_next"
+            android:rotation="185" />
+    </LinearLayout>
+
+  <TextView
+        android:id="@+id/text_title"
+        style="@style/TitleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnClose"
+        style="@style/StyleCloseButon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-5dp"
+        android:layout_marginTop="-5dp" /> 
+
+</RelativeLayout>

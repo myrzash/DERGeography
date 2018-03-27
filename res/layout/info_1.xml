@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="@dimen/max_width_dialog"
+    android:layout_height="@dimen/max_height_dialog"
+    android:background="@drawable/bkg_map" >
+
+    <RelativeLayout
+        android:id="@+id/map_kz"
+        android:layout_width="@dimen/width_map_exercise_one"
+        android:layout_height="@dimen/height_map_exercise_one"
+        android:layout_centerInParent="true"
+        android:background="@drawable/map_countries" >
+
+        <ImageView
+            android:id="@+id/imageRootMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/container3"
+            style="@style/ButtonCountries"
+            android:layout_width="320dp"
+            android:layout_height="120dp"
+            android:layout_above="@+id/container4"
+            android:layout_marginBottom="39dp"
+            android:layout_toLeftOf="@+id/container1" />
+
+        <Button
+            android:id="@+id/container1"
+            style="@style/ButtonCountries"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="54dp"
+            android:layout_marginTop="146dp" />
+
+        <Button
+            android:id="@+id/container5"
+            style="@style/ButtonCountries"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/container1"
+            android:layout_marginLeft="59dp"
+            android:layout_toRightOf="@+id/container2" />
+
+        <Button
+            android:id="@+id/container4"
+            style="@style/ButtonCountries"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/container5"
+            android:layout_alignRight="@+id/container3"
+            android:layout_marginRight="32dp" />
+
+        <Button
+            android:id="@+id/container2"
+            style="@style/ButtonCountries"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="72dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/containerRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bkg_info_item"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/bkgTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_info" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:layout_marginLeft="@dimen/padding_high"
+            android:layout_marginRight="@dimen/padding_high"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textViewInform"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ellipsize="end"
+                android:scrollbars="vertical"
+                android:textSize="@dimen/text_size_big" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/buttonBackGridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_next"
+            android:rotation="185" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/TitleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnClose"
+        style="@style/StyleCloseButon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-5dp"
+        android:layout_marginTop="-5dp" />
+
+</RelativeLayout>

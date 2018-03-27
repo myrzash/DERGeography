@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">География</string>
+        <!-- <string name="good">Отлично!</string> -->
+<!--     <string name="stayed_still_n">Осталось еще %1$d</string> -->
+    <!-- <string name="score_nth">%1$d-категория:</string> --> 
+    <array name="nav_drawer_icons">
+        <item>@drawable/menu_country</item>
+        <item>@drawable/menu_region</item>
+        <item>@drawable/menu_city</item>
+        <item>@drawable/menu_results</item>
+        <item>@drawable/menu_logout</item>
+    </array>   
+<!--     <string name="count">/15</string> -->
+
+</resources>

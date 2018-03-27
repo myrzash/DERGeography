@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kz.nis.geography"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="kz.nis.geography.SplashActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kz.nis.geography.ActivityInput"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.Main"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.exercises.Activity1_1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.exercises.Activity1_2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.exercises.Activity1_3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.exercises.Activity2_1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.exercises.Activity2_2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.exercises.Activity2_3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.exercises.Activity3_1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.exercises.Activity3_2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.ActivityInfo1"
+            android:screenOrientation="landscape"
+            android:theme="@style/ThemeDialog" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.ActivityInfo2"
+            android:screenOrientation="landscape"
+            android:theme="@style/ThemeDialog" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.ActivityInfo3"
+            android:screenOrientation="landscape"
+            android:theme="@style/ThemeDialog" >
+        </activity>
+        <activity
+            android:name="kz.nis.geography.ActivityResults"
+            android:theme="@style/ThemeDialog" >
+        </activity>
+    </application>
+
+</manifest>

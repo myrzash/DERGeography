@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <color name="text_color_apptheme">#424243</color><!-- 
+   <color name="gray_dark">#424243</color> -->
+    <color name="white">#fff</color>
+     <color name="green">#67b692</color>
+      <color name="neutral">#effae0</color>
+        <color name="neutral_trans">#bbeffae0</color>
+       <color name="blue">#84d7e0</color>       
+       <!-- <color name="background_container_exercises">#99ffffff</color> -->
+       <color name="translucent_dark">#44000000</color>
+       <color name="translucent_light">#66ffffff</color>       
+       <color name="menu_bkg">#faf3e3</color>
+        <color name="menu_list_item">#cbc5b7</color>
+        <color name="menu_text_color">#383839</color>
+         <color name="start">#fab807</color>
+          <color name="center">#e38e0f</color>
+           <color name="end">#c46416</color>
+             <color name="brown">#44382f</color>
+             
+               <color name="bkg_list">#e7d1a6</color>
+               <color name="red">#E74C3C</color>
+               
+    <!--
+    OLOR MAP COUNTRIES
+    <color name="color_east">#ce9758</color>
+    <color name="color_west">#8bcfd9</color>
+    <color name="color_north">#fa6b6b</color>
+    <color name="color_center">#8bcf58</color>
+    <color name="color_south">#ece639</color>
+
+    COLOR MAP REGIONS
+    <color name="color_reg_1">#e95a73</color>
+    <color name="color_reg_2">#4e86da</color>
+    <color name="color_reg_3">#deaf94</color>
+    <color name="color_reg_4">#109390</color>
+    <color name="color_reg_5">#ce9758</color>
+    <color name="color_reg_6">#ece639</color>
+    <color name="color_reg_7">#8bcfd9</color>
+    <color name="color_reg_8">#8bcf58</color>
+    <color name="color_reg_9">#ff9900</color>
+    <color name="color_reg_10">#deda6a</color>
+    <color name="color_reg_11">#1093dd</color>
+    <color name="color_reg_12">#deaff4</color>
+    <color name="color_reg_13">#fa6b6b</color>
+    <color name="color_reg_14">#deaf48</color>
+    -->
+
+</resources>

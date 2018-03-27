@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <string name="language">{0,choice,0#Қазақша | 1#Русский | 2#English }</string> -->
+
+    <string-array name="TITLES_COVERPAGE">
+        <item>{0,choice,0#АЙМАҚТАР | 1#РЕГИОНЫ | 2#REGIONS }</item>
+        <item>{0,choice,0#ОБЛЫСТАР | 1#ОБЛАСТИ | 2#AREAS }</item>
+        <item>{0,choice,0#ҚАЛАЛАР | 1#ГОРОДА | 2#CITIES }</item>
+    </string-array>
+    <string-array name="DESCRIPTIONS_COVERPAGE">
+        <item>{0,choice,0#Қазақстан аймақтарын оқып үйреніңіз | 1#Изучайте регионы Казахстана | 2#Familiarize with the provinces of Kazakhstan }</item>
+        <item>{0,choice,0#Қазақстан облыстарын оқып үйреніңіз | 1#Изучайте области Казахстана | 2#Familiarize with the regions of Kazakhstan }</item>
+        <item>{0,choice,0#Қазақстан қалаларын оқып үйреніңіз | 1#Изучайте города Казахстана | 2#Familiarize with the cities of Kazakhstan }</item>
+    </string-array>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>{0,choice,0#Аймақтар | 1#Регионы | 2#Regions }</item>
+        <item>{0,choice,0#Облыстар | 1#Области | 2#Areas }</item>
+        <item>{0,choice,0#Қалалар | 1#Города | 2#Cities }</item>
+        <item>{0,choice,0#Нәтижелер | 1#Результаты | 2#Results }</item>
+        <item>{0,choice,0#Шығу | 1#Выход | 2#Log Out }</item>
+    </string-array> <!-- RESULTS -->
+    <string name="sum_time">{0,choice,0#Жалпы уақыт | 1#Oбщее время | 2#Total time }</string>
+    <!-- REGISTRATION -->
+    <string name="username_is_too_short">{0,choice,0#Логин тым қысқа | 1#Логин слишком короткий | 2#Username is too short}</string>
+    <string name="password_is_too_short">{0,choice,0#Құпиясөз тым қысқа  | 1#Пароль слишком короткий | 2#Password is too short}</string>
+    <string name="toast_exit">{0,choice,0#Шығу үшін бір рет шертіңіз | 1#Нажмите еще раз чтобы выйти | 2#Press again to exit }</string> <!-- "Press once again to exit!" -->
+    <string name="no_user">{0,choice,0#Қолданушылар тізімі бос | 1#Список пользователей пуст | 2#Is empty }</string>
+    <string name="user_name">{0,choice,0#Қолданушы аты | 1#Имя пользователя | 2#User name }</string>
+    <string name="confirm_password">{0,choice,0#Құпиясөзді растау | 1#Подтверждение пароля | 2#Confirm password }</string>
+    <string name="password">{0,choice,0#Құпиясөз | 1#Пароль | 2#Password }</string>
+    <string name="pswd1_pswd2_not_correct">{0,choice,0#Құпиясөздер сәйкес емес | 1#Пароли не совпадают | 2#The passwords do not match }</string>
+      <string name="wait">{0,choice,0#Күте тұрыңыз . . . | 1#Подождите . . .  | 2#Wait please. . . }</string>
+    <string name="user_exists">{0,choice,0#Мұндай қолданушы бар | 1#Такой пользователь существует | 2#This user exists }</string>
+    <string name="user_not_found">{0,choice,0#Қолданушы табылған жоқ | 1#Пользователь не найден | 2#User not found }</string>
+    <string name="password_incorrect">{0,choice,0#Құпиясөз дұрыс емес | 1#Пароль не правильный | 2#The password is not correct }</string>
+    <string name="forgot_password">{0,choice,0#Құпиясөзді ұмыттыңыз ба? | 1#Забыли пароль? | 2#Forgot password? }</string>
+    <string name="start">{0,choice,0#БАСТАУ | 1#НАЧАТЬ | 2#START}</string>
+    <string name="registration">{0,choice,0#ТІРКЕЛУ | 1#РЕГИСТРАЦИЯ | 2#REGISTRATION }</string>
+    <string name="cancel">{0,choice,0#ЖАБУ | 1#ОТМЕНА | 2#CANCEL }</string>
+    <string name="input">{0,choice,0#КІРУ | 1#ВХОД | 2#LOG IN }</string><!-- 
+    <string name="sign_up">{0,choice,0#тіркелу | 1#зарегистрироваться | 2#sign up }</string> -->
+    <string name="log_out">{0,choice,0#шығу | 1#выйти | 2#exit }</string>
+    <string name="log_in">{0,choice,0#кіру | 1#войти | 2#enter }</string>
+    
+ <string name="wrong">{0,choice,0#Қателестіңіз | 1#Вы ошиблись | 2#Wrong }</string>
+    <string name="mission_completed">{0,choice,0#Тапсырма\nаяқталды! | 1#Задание\nвыполнено! | 2#Mission\ncompleted! }</string>
+    <!-- EXERCISES PART 1 -->
+    <string name="task_1_1">{0,choice,0#Картаны құрастырыңыз | 1#Соберите карту | 2#Collect the map }</string>
+    <string name="task_1_2">{0,choice,0#Аймақтар атауын орналастырыңыз | 1#Расставьте названия регионов | 2#Place the regions names}</string>
+    <string name="task_1_31">{0,choice,0#Аймақты таңдаңыз | 1#Выберите регион | 2#Choose a region }</string>
+    <string name="task_1_32">{0,choice,0#Берілген аймаққа қандай облыстар жатады? | 1#Какие области входят в данный регион? | 2#What areas are included in the region? }</string>
+
+    <!-- EXERCISES PART 2 -->
+    <string name="task_2_2">{0,choice,0#Облыстар атауын орналастырыңыз | 1#Расставьте названия областей | 2#Place the areas names }</string>
+    <string name="task_2_31">{0,choice,0#Облысты таңдаңыз | 1#Выберите область | 2#Choose an area }</string>
+    <string name="task_2_32">{0,choice,0#Берілген облысқа қандай қалалар жатады? | 1#Какие города входят в данную область? | 2#What areas are included in the area? }</string>
+
+    <!-- EXERCISES PART 3 -->
+    <string name="task_3_1">{0,choice,0#Қалалар атауын орналастырыңыз | 1#Расставьте названия городов | 2#Place the cities names }</string>
+    <string name="task_3_2">{0,choice,0#Қала атауын табыңыз | 1#Соберите название города | 2#Collect the cities names }</string>
+
+    <!--
+    <string name="start_again">{0,choice,0#Қайта бастау | 1#Начать сначала | 2#Start again }</string>
+     <string name="main_menu">{0,choice,0#Басты Мәзір | 1#Главное Меню | 2#Main Menu }</string> 
+        <string name="contin">{0,choice,0#жалғастыру | 1#продолжить | 2#continue}</string>
+    <string name="next">{0,choice,0#келесі | 1#далее | 2#next }</string>
+    <string name="prev">{0,choice,0#артқа | 1#назад | 2#previous }</string> 
+    -->
+    <!-- PART_3_2 -->
+<!--  <string name="you_win">{0,choice,0#Сіз жеңдіңіз\n Басынан бастайсыз ба? | 1#Вы выиграли.\nНачать заново? | 2#You win.\nRestart? }</string> -->
+    <!--
+          <string name="yes">{0,choice,0#Иә | 1#Да | 2#Yes }</string>
+    <string name="no">{0,choice,0#Жоқ | 1#Нет | 2#No }</string>
+    -->
+    <!-- <string name="end_game">{0,choice,0#Ойыннан шыққыңыз\nкеледі ме? | 1#Выйти из игры? | 2#Quit game? }</string> -->
+
+</resources>

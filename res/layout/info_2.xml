@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="@dimen/max_width_dialog"
+    android:layout_height="@dimen/max_height_dialog"
+    android:background="@drawable/bkg_map" >
+
+    <AbsoluteLayout
+        android:id="@+id/map_kz"
+        android:layout_width="@dimen/width_map_exercise_one"
+        android:layout_height="@dimen/height_map_exercise_one"
+        android:layout_centerInParent="true"
+        android:background="@drawable/map_regions" >
+
+        <ImageView
+            android:id="@+id/imageRootMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/container14"
+            style="@style/ButtonRegions"
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:layout_x="422dp"
+            android:layout_y="301dp" />
+
+        <Button
+            android:id="@+id/container10"
+            style="@style/ButtonRegions"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_x="272dp"
+            android:layout_y="294dp" />
+
+        <Button
+            android:id="@+id/container11"
+            style="@style/ButtonRegions"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_x="100dp"
+            android:layout_y="310dp" />
+
+        <Button
+            android:id="@+id/container7"
+            style="@style/ButtonRegions"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_x="23dp"
+            android:layout_y="151dp" />
+
+        <Button
+            android:id="@+id/container2"
+            style="@style/ButtonRegions"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_x="185dp"
+            android:layout_y="166dp" />
+
+        <Button
+            android:id="@+id/container4"
+            style="@style/ButtonRegions"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_x="43dp"
+            android:layout_y="228dp" />
+
+        <Button
+            android:id="@+id/container6"
+            style="@style/ButtonRegions"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_x="490dp"
+            android:layout_y="320dp" />
+
+        <Button
+            android:id="@+id/container3"
+            style="@style/ButtonRegions"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_x="603dp"
+            android:layout_y="284dp" />
+
+        <Button
+            android:id="@+id/container5"
+            style="@style/ButtonRegions"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_x="649dp"
+            android:layout_y="169dp" />
+
+        <Button
+            android:id="@+id/container12"
+            style="@style/ButtonRegions"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_x="574dp"
+            android:layout_y="84dp" />
+
+        <Button
+            android:id="@+id/container1"
+            style="@style/ButtonRegions"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_x="417dp"
+            android:layout_y="93dp" />
+
+        <Button
+            android:id="@+id/container8"
+            style="@style/ButtonRegions"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_x="364dp"
+            android:layout_y="181dp" />
+
+        <Button
+            android:id="@+id/container9"
+            style="@style/ButtonRegions"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_x="322dp"
+            android:layout_y="66dp" />
+
+        <Button
+            android:id="@+id/container13"
+            style="@style/ButtonRegions"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_x="419dp"
+            android:layout_y="34dp" />
+    </AbsoluteLayout>
+    <LinearLayout
+        android:id="@+id/containerRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bkg_info_item"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/bkgTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_info" />
+
+        <ListView
+            android:id="@+id/listViewRes"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:layout_marginLeft="@dimen/padding_high"
+            android:layout_marginRight="@dimen/padding_high"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_weight="1"
+            android:overScrollMode="always"
+            android:scrollbarAlwaysDrawVerticalTrack="false" >
+        </ListView>
+
+        <Button
+            android:id="@+id/buttonBackGridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_next"
+            android:rotation="185" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/TitleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnClose"
+        style="@style/StyleCloseButon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-5dp"
+        android:layout_marginTop="-5dp" />
+
+</RelativeLayout>
